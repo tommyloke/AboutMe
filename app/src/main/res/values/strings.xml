@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="myName">Loke Kai Wai</string>
+    <string name="profile_pic">Profile Picture</string>
+    <string name="profile_desc">
+        Education:\n
+        \n\tSJK(C) LEE RUBBER\n
+        \n\tSMJK CHONG HWA\n
+        \n\tTARUC, KUALA LUMPUR\n
+        \n\tStandford University\n
+        \n\tOxford University\n
+        \n\tSoftware Enginnering University\n
+        \n\tSJK(C) LEE RUBBER\n
+        \n\tSMJK CHONG HWA\n
+        \n\tTARUC, KUALA LUMPUR\n
+        \n\tStandford University\n
+        \n\tOxford University\n
+        \n\tSoftware Enginnering University\n
+        \n\tSJK(C) LEE RUBBER\n
+        \n\tSMJK CHONG HWA\n
+        \n\tTARUC, KUALA LUMPUR\n
+        \n\tStandford University\n
+        \n\tOxford University\n
+        \n\tSoftware Enginnering University\n
+        \n\tSJK(C) LEE RUBBER\n
+        \n\tSMJK CHONG HWA\n
+        \n\tTARUC, KUALA LUMPUR\n
+        \n\tStandford University\n
+        \n\tOxford University\n
+        \n\tSoftware Enginnering University\n
+    </string>
+</resources>
