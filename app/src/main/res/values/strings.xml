@@ -29,6 +29,16 @@
         \n\tOxford University\n
         \n\tSoftware Enginnering University\n
     </string>
-    <string name="nickName">What is your Nickname ? </string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
     <string name="done">Done</string>
+    <string name="star_image">star_image</string>
+    <string name="aboutMe2Desc">
+        Hi, my name is Aleks\n\n
+        I love Fish.\n\n
+        The kind that is alive and swims around
+        in an aquarium or river, or a lake,and definitely the ocean.\n
+        Fun fact is that I have several aquariums
+        and also a river.\n\n
+        I like eating fish, too.Raw fish. Grilled fish. SmokedFish.Poached fish - not so much.
+    </string>
 </resources>

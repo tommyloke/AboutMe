@@ -13,17 +13,18 @@
         android:layout_gravity="center"
         android:text="@string/myName"
         app:fontFamily="@font/roboto"
+        android:textSize="50px"
         style="@style/my_text_style" />
 
     <EditText
         android:id="@+id/nickname_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
-        android:hint="@string/nickName"
-        android:inputType="textPersonName"
-        android:text="@string/nickName"
-        android:autofillHints="" />
+        android:gravity="center_horizontal"
+        android:hint="@string/what_is_your_nickname"
+        android:inputType="textPersonName|textEmailAddress" />
 
     <Button
         android:id="@+id/done_button"
@@ -31,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/layout_margin"
+        android:paddingTop="15dp"
         android:gravity="center_horizontal"
         app:fontFamily="@font/roboto"
         android:text="@string/done" />
@@ -42,20 +43,24 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:visibility="gone"
-        android:text="" />
-    Your layout preview should look something like the following:
-
-
-
-    Back
-
+        android:text=""
+        android:background="@color/colorAccent"
+        android:padding="@dimen/small_padding"
+        android:paddingBottom="@dimen/small_padding"
+        android:textSize="@dimen/text_size"/>
 
     <ImageView
         android:id="@+id/star_image"
         android:layout_width="164dp"
         android:layout_height="41dp"
         android:layout_gravity="center_horizontal"
-        android:contentDescription="star_image"
+        android:contentDescription="@string/star_image"
         app:srcCompat="@drawable/star_img" />
+
+    <TextView
+        android:id="@+id/textViewDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutMe2Desc" />
 
 </LinearLayout>
